@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './component/navbar'
+import News from './component/news'
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route exact path="/"><News country="in" category="general" apiKey="3618486199914aec8d3cd376afc440b2" pageSize="10" /></Route>
+          <Route exact path="/business"><News country="in" category="business" apiKey="3618486199914aec8d3cd376afc440b2" pageSize="10" /></Route>
+          <Route exact path="/entertainment"><News country="in" category="entertainment" apiKey="3618486199914aec8d3cd376afc440b2" pageSize="10" /></Route>
+          <Route exact path="/health"><News country="in" category="health" apiKey="3618486199914aec8d3cd376afc440b2" pageSize="10" /></Route>
+          <Route exact path="/science"><News country="in" category="science" apiKey="3618486199914aec8d3cd376afc440b2" pageSize="10" /></Route>
+          <Route exact path="/sports"><News country="in" category="sports" apiKey="3618486199914aec8d3cd376afc440b2" pageSize="10" /></Route>
+          <Route exact path="/technology"><News country="in" category="technology" apiKey="3618486199914aec8d3cd376afc440b2" pageSize="10" /></Route>
+
+
+        </Switch>
+      </Router>
     </div>
   );
 }

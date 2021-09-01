@@ -1,0 +1,45 @@
+{
+    "status": "ok",
+    "totalResults": "2131",
+    "articles": [
+    {
+    "source": {
+                "id": null,
+                "name": "Lifehacker.com"
+            },
+            "author": "Khamosh Pathak",
+            "title": "It's Finally Easy to Find and Save Photos From Messages in iOS 15",
+            "description": "The Messages app on the iPhone has never really played all that nice with the Photos app—if someone messaged you a picture and you wanted to find it again later, good luck. That’s all changing in iOS 15 with the new Shared with You integration in the Photos a…",
+            "url": "https://lifehacker.com/its-finally-easy-to-find-and-save-photos-from-messages-1847588907",
+            "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/a7f52ca03650d35f2479c8126b94b96e.jpg",
+            "publishedAt": "2021-08-31T15:00:00Z",
+            "content": "The Messages app on the iPhone has never really played all that nice with the Photos appif someone messaged you a picture and you wanted to find it again later, good luck. Thats all changing in iOS 1… [+2007 chars]"
+        },
+    {
+    "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Mat Smith",
+            "title": "The Morning After: China slashes kids’ gaming time to three hours a week,",
+            "description": "For anyone struggling to tear kids away from consoles and phones for dinner, homework and, well, real life, spare a thought for the Chinese youth. China has announced a further crackdown on the time children can play online games, with the new limit set to ju…",
+            "url": "https://www.engadget.com/the-morning-after-china-slashes-kids-gaming-time-to-three-hours-a-week-111923464.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-04/8a0c2870-9ef9-11eb-bbd2-b1ef5eaf7c2c",
+            "publishedAt": "2021-08-31T11:19:23Z",
+            "content": "For anyone struggling to tear kids away from consoles and phones for dinner, homework and, well, real life, spare a thought for the Chinese youth. China has announced a further crackdown on the time … [+3834 chars]"
+        },
+    {
+    "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Igor Bonifacic",
+            "title": "Strava makes its location sharing safety feature free",
+            "description": "Social fitness network Strava has made one of its most useful safety features available to all users. Starting today, anyone — not just those with a subscription — can use the app’s Beacon feature to share their location with friends and family members.To ena…",
+            "url": "https://www.engadget.com/strava-beacon-feature-available-free-users-160045955.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-08/d720d960-09a9-11ec-9aef-0ae8602bdafc",
+            "publishedAt": "2021-08-31T16:00:45Z",
+            "content": "Social fitness network Strava has made one of its most useful safety features available to all users. Starting today, anyone not just those with a subscription can use the apps Beacon feature to shar… [+1235 chars]"
+        }
+    ]
+}
